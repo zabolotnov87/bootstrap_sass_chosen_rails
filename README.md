@@ -1,6 +1,4 @@
-# BootstrapSassChosenRails
-
-TODO: Write a gem description
+Rails asset pipeline gem to provide [bootstrap-chosen (sass)](https://github.com/alxlit/bootstrap-chosen)
 
 ## Installation
 
@@ -18,7 +16,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your application.css.scss, you should remove  
+
+    *= require_chosen
+    
+and import bootstrap-chosen:
+
+```scss
+@import "bootstrap"
+...
+@import "bootstrap-chosen";
+```
+
+Easy as pie.
 
 ## Contributing
 
