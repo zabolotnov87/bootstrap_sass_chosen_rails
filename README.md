@@ -4,15 +4,11 @@ Rails asset pipeline gem to provide [bootstrap-chosen (sass)](https://github.com
 
 Add this line to your application's Gemfile:
 
-    gem 'bootstrap_sass_chosen_rails'
+    gem 'bootstrap_sass_chosen_rails', github: 'zabolotnov87/bootstrap_sass_chosen_rails'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install bootstrap_sass_chosen_rails
 
 ## Usage
 
