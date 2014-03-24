@@ -6,11 +6,10 @@ require 'bootstrap_sass_chosen_rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "bootstrap_sass_chosen_rails"
   spec.version       = BootstrapSassChosenRails::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.authors       = ["Sergey Zabolotnov"]
+  spec.email         = ["sergey.zabolotnov@gmail.com"]
+  spec.summary       = %q{bootstrap-chosen.scss (by alxlit) asset pipeline provider/wrapper}
+  spec.homepage      = "https://github.com/zabolotnov87/bootstrap_sass_chosen_rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,6 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake"
+  spec.add_dependency "bootstrap-sass"
+  spec.add_dependency "chosen-rails"
+  spec.add_dependency "sass-rails"
 end
