@@ -19,7 +19,7 @@ In your application.css.scss, you should remove
 and import bootstrap-chosen:
 
 ```scss
-@import "bootstrap"
+@import "bootstrap";
 ...
 @import "bootstrap-chosen";
 ```
