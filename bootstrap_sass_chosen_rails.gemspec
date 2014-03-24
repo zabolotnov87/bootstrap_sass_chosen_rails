@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = BootstrapSassChosenRails::VERSION
   spec.authors       = ["Sergey Zabolotnov"]
   spec.email         = ["sergey.zabolotnov@gmail.com"]
-  spec.summary       = %q{bootstrap-chosen.scss (by alxlit) asset pipeline provider/wrapper}
+  spec.summary       = %q{bootstrap-chosen (by @alxlit) (bootstrap 3, sass) asset pipeline provider/wrapper}
   spec.homepage      = "https://github.com/zabolotnov87/bootstrap_sass_chosen_rails"
   spec.license       = "MIT"
 
